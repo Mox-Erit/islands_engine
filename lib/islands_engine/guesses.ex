@@ -6,4 +6,6 @@ defmodule IslandsEngine.Guesses do
 
   def new(), do:
     %Guesses{hits: MapSet.new(), misses: MapSet.new()}
+    
+  
 end
